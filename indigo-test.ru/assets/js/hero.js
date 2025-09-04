@@ -23,18 +23,17 @@ document.addEventListener('DOMContentLoaded', function() {
         showLoading();
 
         // Ваш API endpoint
-        const apiUrl = `http://dostavkabot.site/start`;
+        const apiUrl = `https://dostavkabot.site/start`;
 
         fetch(apiUrl)
             .then(response => {
-                 showError(123);
                 if (!response.ok) {
                     throw new Error('Ошибка загрузки товаров');
                 }
                 return response.json();
             })
             .then(data => {
-               
+                console.log(data.products);
                 if (data.products) {
                     renderProducts(data.products);
                     currentPage++;
@@ -43,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             })
             .catch(error => {
-                showError(321);
+                showError(error.message);
             })
             .finally(() => {
                 isLoading = false;
@@ -81,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                             <p class="property-card-location">${product.description || ''}</p>
                                         </div>
                                         <div class="btn-wrap">
-                                            <a href="./././property-details.html" class="th-btn style-border2 th-btn-icon">Подробнее</a>
+                                            <a href="./././property-details.php?id=${formatPrice(product.id)}" class="th-btn style-border2 th-btn-icon">Подробнее</a>
                                         </div>
                                     </div>
                                 </div>
