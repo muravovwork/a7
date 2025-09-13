@@ -23,19 +23,19 @@ document.addEventListener('DOMContentLoaded', function() {
         showLoading();
 
         // Ваш API endpoint
-        const apiUrl = `https://dostavkabot.site/start`;
+        const apiUrl = `http://api.indigo-test.ru/api/properties?page=1&limit=10`;
 
         fetch(apiUrl)
             .then(response => {
                 if (!response.ok) {
-                    throw new Error('Ошибка загрузки товаров');
+                    throw new Error('Ошибка загрузки карточек');
                 }
                 return response.json();
             })
             .then(data => {
-                console.log(data.products);
-                if (data.products) {
-                    renderProducts(data.products);
+                console.log(data.data);
+                if (data.data) {
+                    renderProducts(data.data);
                     currentPage++;
                 } else {
                     showNoProducts();

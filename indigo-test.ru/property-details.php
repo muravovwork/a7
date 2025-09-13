@@ -30,18 +30,11 @@
     ==============================-->
     <?php require_once('src/common/header.php'); ?>
 
-
-    <!--==============================
-    Hero Area
-    ==============================-->
-    <!--==============================
-   Breadcumb
-============================== -->
   <!--==============================
-Property Page Area
-==============================-->
+    Property Page Area
+    ==============================-->
     <section class="space-top space-extra-bottom">
-        <div class="container" id="product-container">
+        <div class="container" id="property-container">
 
         </div>
     </section>

@@ -1,0 +1,17 @@
+# config/serializer/News.yaml
+App\Entity\News:
+  attributes:
+    id:
+      groups: ['news:read']
+    title:
+      groups: ['news:read']
+    description:
+      groups: ['news:read']
+    imageUrl:
+      groups: ['news:read']
+    createdAt:
+      groups: ['news:read']
+    updatedAt:
+      groups: ['news:read']
+    isPublished:
+      groups: ['news:read']

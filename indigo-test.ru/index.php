@@ -36,10 +36,20 @@
     ==============================-->
     <?php require_once('src/page/index/hero.php'); ?>
 
+    <!--==============================
+    Blog Area
+    ==============================-->
+    <?php require_once('src/page/index/about.php'); ?>
+
+    <!--==============================
+    News Area
+    ==============================-->
+    <?php require_once('src/page/index/news.php'); ?>
+
    <!--==============================
 	Footer Area
     ==============================-->
-    <?php require_once('src/common/footer.php'); ?>
+    <?php //require_once('src/common/footer.php'); ?>
 
     <!--********************************
 			Code End  Here
@@ -78,10 +88,7 @@
 
     <!-- Hero -->
     <script src="assets/js/hero.js"></script>
-
-
-
-
+    <!-- News -->
+    <script src="assets/js/news.js"></script>
 </body>
-
 </html>

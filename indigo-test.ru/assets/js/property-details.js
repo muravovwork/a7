@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function loadProduct() {
         // Ваш API endpoint
-        const apiUrl = `http://dostavkabot.site/property-details/` + id;
+        const apiUrl = `http://api.indigo-test.ru/property-details/` + id;
 
         fetch(apiUrl)
             .then(response => {

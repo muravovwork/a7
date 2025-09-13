@@ -1,7 +1,4 @@
-<!--==============================
-                Header Area
-            ==============================-->
-<header class="th-header header-default">
+<header class="th-header header-layout2">
     <div class="sticky-wrapper">
         <!-- Main Menu Area -->
         <div class="menu-area">
@@ -9,32 +6,22 @@
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto">
                         <div class="header-logo">
-                            <a href="././index.php">
-                                <img src="././assets/img/logo.png" alt="А7" width="50">
+                            <a href="index.php">
+                                <img src="assets/img/logo-dark.png" alt="A7" width="50">
                             </a>
                         </div>
                     </div>
                     <div class="col-auto">
                         <nav class="main-menu d-none d-lg-inline-block">
                             <ul>
-                                <li><a href="../../about.html">
-                                        Главная
-                                    </a></li>
-
-                            </ul>
+                                <li><a href="index.php">Главная</a></li>
+                                <li><a href="property-list.php">Объекты</a></li>
+                                <li><a href="404.php">Новости</a></li>
+                                <li><a href="404.php">О нас</a></li>
+                                <li><a href="about.html">Контакты</a></li>
                         </nav>
-                        <div class="header-button d-flex d-lg-none">
+                        <div class="header-button d-flex d-lg-none dark">
                             <button type="button" class="th-menu-toggle sidebar-btn">
-                                <span class="line"></span>
-                                <span class="line"></span>
-                                <span class="line"></span>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="col-auto d-none d-xxl-block">
-                        <div class="header-button">
-                            <a href="../../contact.html" class="th-btn style-border th-btn-icon">Контакты</a>
-                            <button type="button" class="simple-icon sideMenuInfo sidebar-btn style2">
                                 <span class="line"></span>
                                 <span class="line"></span>
                                 <span class="line"></span>
@@ -44,5 +31,6 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </header>
