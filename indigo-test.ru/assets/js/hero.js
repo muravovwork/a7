@@ -23,7 +23,11 @@ document.addEventListener('DOMContentLoaded', function() {
         showLoading();
 
         // Ваш API endpoint
+<<<<<<< HEAD
         const apiUrl = `http://api.indigo-test.ru/api/properties?page=1&limit=10`;
+=======
+        const apiUrl = `http://api.indigo-test.ru/start`;
+>>>>>>> 12c6b1dd6447f07f83f5372d97fa5d159f8a29b0
 
         fetch(apiUrl)
             .then(response => {
