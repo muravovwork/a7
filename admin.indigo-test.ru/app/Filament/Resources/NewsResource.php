@@ -55,7 +55,6 @@ class NewsResource extends Resource
                     ->visibility('public')
                     ->maxSize(2048)
                     ->imagePreviewHeight(200)
-                    ->required()
                     ->helperText('Изображение будет доступно по адресу: http://indigo-test.ru/shared_images/news/'),
             ]);
     }

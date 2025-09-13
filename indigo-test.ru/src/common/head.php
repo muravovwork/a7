@@ -1,9 +1,9 @@
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <title>А7</title>
-<meta name="author" content="Realar">
-<meta name="description" content="Realar - Real Estate Apartment Complex HTML Template">
-<meta name="keywords" content="Realar - Real Estate Apartment Complex HTML Template">
+<meta name="author" content="A7">
+<meta name="description" content="A7 | Аренда коммерческой недвижимости">
+<meta name="keywords" content="A7 | Аренда коммерческой недвижимости">
 <meta name="robots" content="INDEX,FOLLOW">
 
 <!-- Mobile Specific Metas -->

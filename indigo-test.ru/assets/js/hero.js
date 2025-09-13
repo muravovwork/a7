@@ -23,11 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
         showLoading();
 
         // Ваш API endpoint
-<<<<<<< HEAD
-        const apiUrl = `http://api.indigo-test.ru/api/properties?page=1&limit=10`;
-=======
-        const apiUrl = `http://api.indigo-test.ru/start`;
->>>>>>> 12c6b1dd6447f07f83f5372d97fa5d159f8a29b0
+       const apiUrl = `http://api.indigo-test.ru/api/properties?page=1&limit=10`;
 
         fetch(apiUrl)
             .then(response => {
@@ -37,7 +33,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 return response.json();
             })
             .then(data => {
-                console.log(data.data);
                 if (data.data) {
                     renderProducts(data.data);
                     currentPage++;
@@ -70,18 +65,17 @@ document.addEventListener('DOMContentLoaded', function() {
                              <div class="swiper-slide">
                                 <div class="property-card2">
                                     <div class="property-card-thumb img-shine">
-                                        <img src="${product.image || 'https://via.placeholder.com/300x200'}" alt="img">
+                                        <img src="${product.images}" alt="img">
                                     </div>
                                     <div class="property-card-meta">
                                         <span><img src="./././assets/img/icon/property-icon1-1.svg" alt="img">Bed 4</span>
-                                        <span><img src="./././assets/img/icon/property-icon1-2.svg" alt="img">Bath 2</span>
                                         <span><img src="./././assets/img/icon/property-icon1-3.svg" alt="img">1500 sqft</span>
                                     </div>
                                     <div class="property-card-details">
                                         <div class="media-left">
-                                            <h4 class="property-card-title"><a href="./././property-details.html">${product.name}</a></h4>
-                                            <h5 class="property-card-price">${formatPrice(product.price)}</h5>
-                                            <p class="property-card-location">${product.description || ''}</p>
+                                            <h4 class="property-card-title"><a href="./././property-details.html">${product.title}</a></h4>
+                                            <h5 class="property-card-price">${formatPrice(product.price)} ${product.currency}</h5>
+                                            <p class="property-card-location">${product.city}, ${product.address}</p>
                                         </div>
                                         <div class="btn-wrap">
                                             <a href="./././property-details.php?id=${formatPrice(product.id)}" class="th-btn style-border2 th-btn-icon">Подробнее</a>

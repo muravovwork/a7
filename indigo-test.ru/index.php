@@ -49,7 +49,7 @@
    <!--==============================
 	Footer Area
     ==============================-->
-    <?php //require_once('src/common/footer.php'); ?>
+    <?php require_once('src/common/footer.php'); ?>
 
     <!--********************************
 			Code End  Here
