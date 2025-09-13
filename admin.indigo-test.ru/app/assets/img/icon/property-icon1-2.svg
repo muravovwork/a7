@@ -1,0 +1,15 @@
+<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Ступени -->
+    <rect x="4" y="6" width="20" height="2" fill="currentColor" rx="0.5"/>
+    <rect x="4" y="11" width="20" height="2" fill="currentColor" rx="0.5"/>
+    <rect x="4" y="16" width="20" height="2" fill="currentColor" rx="0.5"/>
+    <rect x="4" y="21" width="20" height="2" fill="currentColor" rx="0.5"/>
+
+    <!-- Боковые стойки -->
+    <rect x="4" y="6" width="2" height="17" fill="currentColor" rx="0.5"/>
+    <rect x="22" y="6" width="2" height="17" fill="currentColor" rx="0.5"/>
+
+    <!-- Перила -->
+    <rect x="4" y="6" width="20" height="1" fill="currentColor" rx="0.5"/>
+    <rect x="4" y="22" width="20" height="1" fill="currentColor" rx="0.5"/>
+</svg>
