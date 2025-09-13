@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/nelmio/cors-bundle" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/laminas/laminas-code" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/polyfill-php84" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/runtime" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/composer" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/friendsofphp/proxy-manager-lts" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/api.indigo-test.ru/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/nelmio/cors-bundle" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/polyfill-php84" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/composer" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/runtime" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/www.api.indigo-test.ru/vendor/psr/container" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/api.indigo-test.ru/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>
